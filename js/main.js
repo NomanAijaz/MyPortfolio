@@ -57,7 +57,10 @@
         },
         500,
         function () {
-          // window.location.hash = href;
+          window.location.hash = href;
+          // Close the menu after scrolling
+          $(".js-fh5co-nav-toggle").removeClass("active");
+          $("#ftco-nav").collapse("hide");
         }
       );
     });
