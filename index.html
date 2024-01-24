@@ -86,16 +86,24 @@
     
     }
 
+    .center_div{
+      justify-content: space-between;
+    }
+
     @media (max-width: 995px) {
       .white_color{
       color: white;
     }
 
-    @media screen and (min-width: 768px) and (max-width: 995px) {
+    .center_div{
+      justify-content: center;
+    }
+
+    /* @media screen and (min-width: 768px) and (max-width: 995px) {
       .center_div{
         justify-content: center;
       }
-    }
+    } */
     }
 
     
@@ -166,7 +174,7 @@
       </div>
     </nav>
     <section id="home-section" class="container top_margin"  >
-    <div class="row justify-content-between center_div" >
+    <div class="row center_div" >
       <div
         data-scrollax=" properties: { translateY: '70%' }"
       >
@@ -393,15 +401,15 @@
       </div>
     </section>
 
-	<section  class="ftco-about ftco-section ftco-no-pt ftco-no-pb"
+	<section  class="container ftco-about ftco-section ftco-no-pt ftco-no-pb"
 	id="skill-section">
 	<div class="row justify-content-center mb-5 pb-5"
 	style="margin-top: 200px;"
 	>
-		<div class="col-md-7 heading-section text-center ftco-animate">
+		<div class="col-md-12 heading-section text-center ftco-animate mb-5">
 		  <!-- <span class="subheading" style="color: #367AFF;">Achievements</span> -->
 		  <h2 class="mb-4">Skills</h2>
-		  <p>
+		  <p >
 			In my journey as a Full Stack Developer with a specialization in both Mobile and Web Applications, I've honed a comprehensive skill set to bring projects to life. Proficient in languages such as 		  </p>
 		</div>
 	  </div>
